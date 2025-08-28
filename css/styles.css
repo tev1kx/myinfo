@@ -8,7 +8,7 @@ body {
     width: 59px;
     height: 59px;
     display: block;
-    margin: 66px auto 0 auto;
+    margin: 66px auto 0 auto; 
 }
 
 .main {
@@ -75,11 +75,12 @@ body {
 
 .author {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 14px;
     color: #000;
-    margin-top: 722px;
-    margin-right: 9px;
+    margin-top: -25px;
+    margin-left: 450px;
 }
+
 
 @media (max-width: 768px) {
     .main1 {
@@ -123,7 +124,7 @@ body {
         text-align: center;
         margin-left: 0;
         margin-right: 0;
-        font-size: 16px;
+        font-size: 10px;
     }
 }
 
@@ -152,10 +153,10 @@ body {
     }
 
     .author {
-        font-size: 14px;
+        font-size: 8px;
     }
 }
-}
+
 
 
 
