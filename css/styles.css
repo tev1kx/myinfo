@@ -1,0 +1,142 @@
+/* ==== БАЗОВІ СТИЛІ ==== */
+body {
+    font-family: "Inria Sans", sans-serif;
+    margin: 0;
+}
+
+.tev1kximage {
+    border-radius: 50px;
+    width: 59px;
+    height: 59px;
+    display: block;
+    margin: 66px auto 0 auto; /* по центру */
+}
+
+.main {
+    display: flex;            
+    justify-content: center;  /* по горизонталі */
+    align-items: flex-start;  /* зверху */
+    background: linear-gradient(215deg, #b9ffa4 0%, #6f9963 100%);
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+.main1 {
+    border-radius: 40px;
+    width: 540px;
+    height: 700px;
+    background: linear-gradient(180deg, #310000 0%, #434343 100%);
+    margin: 0 auto;  
+    display: block;
+}
+
+.main-text {
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.but1 {
+    display: block;
+    border-radius: 40px;
+    width: 360px;
+    height: 60px;
+    background-color: #fff;
+    margin: 37px auto;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none; 
+    text-align: center;  
+    line-height: 60px;
+}
+
+.order {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    margin-top: 45px;
+    margin-bottom: 39px;
+    margin-left: 64px;
+    margin-right: 32px;
+}
+
+.order1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    margin-top: -39px;
+    margin-bottom: 39px;
+    margin-left: 180px;
+    margin-right: 32px;
+}
+
+/* ==== Медіа-запити ==== */
+@media (max-width: 768px) {
+    .main1 {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .tev1kximage {
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+    }
+
+    .main-text {
+        font-size: 24px;
+    }
+
+    .but1 {
+        width: 100%;
+        font-size: 18px;
+        height: 55px;
+        line-height: 55px;
+    }
+
+    .order {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+    .order1 {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tev1kximage {
+        width: 70px;
+        height: 70px;
+    }
+
+    .main-text {
+        font-size: 20px;
+    }
+
+    .but1 {
+        font-size: 16px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .order {
+        font-size: 14px;
+    }
+
+    .order1 {
+        font-size: 14px;
+    }
+}
+
+
