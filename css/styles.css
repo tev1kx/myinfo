@@ -74,11 +74,12 @@ body {
 }
 
 .author {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
     font-weight: 700;
     font-size: 20px;
     color: #000;
-    margin-top: 722px;
-    margin-right: 9px;
 }
 
 
@@ -161,6 +162,7 @@ body {
         font-size: 8px;
     }
 }
+
 
 
 
