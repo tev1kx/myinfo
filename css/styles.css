@@ -121,9 +121,11 @@ body {
     }
 
     .author {
-        font-size: 10px;       
-        margin-top: 722px;     
-        margin-right: 7px
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        font-weight: 700;
+        font-size: 10px;
     }
 }
 
@@ -152,11 +154,14 @@ body {
     }
 
     .author {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        font-weight: 700;
         font-size: 8px;
-        margin-top: 722px;
-        margin-right: 5px;
     }
 }
+
 
 
 
